@@ -18,7 +18,7 @@ async function pageReady() {
 	localVideo = document.getElementById('localVideo');
 	remoteVideo = document.getElementById('remoteVideo');
 
-	serverConnection = new WebSocket(`wss://https://video-call-a95d.onrender.com:43`);
+	serverConnection = new WebSocket(`wss://video-call-a95d.onrender.com}:443`);
 	serverConnection.onmessage = gotMessageFromServer;
 
 	const constraints = {
